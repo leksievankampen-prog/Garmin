@@ -115,7 +115,7 @@ class WeatherView extends WatchUi.View {
         // Today's high / low.
         var days = d["days"] as Array;
         if (days.size() > 0) {
-            var today = days[0];
+            var today = days[0] as Dictionary;
             drawHighLow(dc, w / 2, h * 0.86, today["max"], today["min"], Graphics.FONT_TINY, true);
         }
     }
@@ -129,7 +129,7 @@ class WeatherView extends WatchUi.View {
         var rowH = h * 0.1;
         var y0 = h * 0.27;
         for (var i = 0; i < hours.size(); i++) {
-            var hr = hours[i];
+            var hr = hours[i] as Dictionary;
             var y = y0 + i * rowH;
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);
             dc.drawText(w * 0.14, y, Graphics.FONT_TINY, hr["t"], left());
@@ -149,7 +149,7 @@ class WeatherView extends WatchUi.View {
         var rowH = h * 0.12;
         var y0 = h * 0.28;
         for (var i = 0; i < days.size(); i++) {
-            var day = days[i];
+            var day = days[i] as Dictionary;
             var y = y0 + i * rowH;
             var name = (i == 0) ? str(Rez.Strings.Today) : weekday(day["date"]);
             dc.setColor(Graphics.COLOR_LT_GRAY, Graphics.COLOR_TRANSPARENT);

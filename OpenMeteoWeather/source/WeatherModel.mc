@@ -1,6 +1,7 @@
 import Toybox.Application;
 import Toybox.Communications;
 import Toybox.Lang;
+import Toybox.PersistedContent;
 import Toybox.Position;
 import Toybox.Time;
 import Toybox.WatchUi;
@@ -134,7 +135,7 @@ class WeatherModel {
         Communications.makeWebRequest(URL, params, options, method(:onResponse));
     }
 
-    function onResponse(code as Number, body) as Void {
+    function onResponse(code as Number, body as Dictionary or String or PersistedContent.Iterator or Null) as Void {
         var parsed = null;
         if (code == 200 && body instanceof Dictionary) {
             parsed = parse(body);
