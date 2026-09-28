@@ -1,0 +1,48 @@
+<strings>
+    <string id="AppName" scope="glance">Open-Meteo Weather</string>
+    <string id="GlanceEmpty" scope="glance">Open for weather</string>
+    <string id="Updated">Updated</string>
+    <string id="Updating">Updating...</string>
+    <string id="Offline">Offline</string>
+    <string id="SearchingGps">Searching GPS...</string>
+    <string id="Loading">Loading weather...</string>
+    <string id="ErrNoPhone">No phone connection</string>
+    <string id="ErrTimeout">Request timed out</string>
+    <string id="ErrGeneric">Error</string>
+    <string id="PressStart">Press START to retry</string>
+    <string id="FeelsLike">Feels</string>
+    <string id="Wind">Wind</string>
+    <string id="Humidity">Humidity</string>
+    <string id="Hourly">Hourly</string>
+    <string id="Daily">Next days</string>
+    <string id="Today">Today</string>
+    <string id="SettingTempUnit">Temperature</string>
+    <string id="SettingWindUnit">Wind speed</string>
+    <string id="UnitCelsius">Celsius</string>
+    <string id="UnitFahrenheit">Fahrenheit</string>
+    <string id="UnitKmh">km/h</string>
+    <string id="UnitMs">m/s</string>
+    <string id="UnitMph">mph</string>
+    <string id="UnitKn">knots</string>
+    <string id="W0">Clear</string>
+    <string id="W1">Mainly clear</string>
+    <string id="W2">Partly cloudy</string>
+    <string id="W3">Overcast</string>
+    <string id="W45">Fog</string>
+    <string id="W51">Drizzle</string>
+    <string id="W56">Freezing drizzle</string>
+    <string id="W61">Light rain</string>
+    <string id="W63">Rain</string>
+    <string id="W65">Heavy rain</string>
+    <string id="W66">Freezing rain</string>
+    <string id="W71">Light snow</string>
+    <string id="W73">Snow</string>
+    <string id="W75">Heavy snow</string>
+    <string id="W77">Snow grains</string>
+    <string id="W80">Showers</string>
+    <string id="W82">Heavy showers</string>
+    <string id="W85">Snow showers</string>
+    <string id="W95">Thunderstorm</string>
+    <string id="W96">Storm with hail</string>
+    <string id="WUnknown">Unknown</string>
+</strings>

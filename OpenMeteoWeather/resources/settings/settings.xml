@@ -1,0 +1,16 @@
+<settings>
+    <setting propertyKey="@Properties.tempUnit" title="@Strings.SettingTempUnit">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.UnitCelsius</listEntry>
+            <listEntry value="1">@Strings.UnitFahrenheit</listEntry>
+        </settingConfig>
+    </setting>
+    <setting propertyKey="@Properties.windUnit" title="@Strings.SettingWindUnit">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.UnitKmh</listEntry>
+            <listEntry value="1">@Strings.UnitMs</listEntry>
+            <listEntry value="2">@Strings.UnitMph</listEntry>
+            <listEntry value="3">@Strings.UnitKn</listEntry>
+        </settingConfig>
+    </setting>
+</settings>

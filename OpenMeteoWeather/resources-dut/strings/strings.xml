@@ -1,0 +1,48 @@
+<strings>
+    <string id="AppName" scope="glance">Open-Meteo Weer</string>
+    <string id="GlanceEmpty" scope="glance">Open voor het weer</string>
+    <string id="Updated">Bijgewerkt</string>
+    <string id="Updating">Bijwerken...</string>
+    <string id="Offline">Offline</string>
+    <string id="SearchingGps">GPS zoeken...</string>
+    <string id="Loading">Weer ophalen...</string>
+    <string id="ErrNoPhone">Geen verbinding telefoon</string>
+    <string id="ErrTimeout">Time-out</string>
+    <string id="ErrGeneric">Fout</string>
+    <string id="PressStart">START = opnieuw</string>
+    <string id="FeelsLike">Gevoel</string>
+    <string id="Wind">Wind</string>
+    <string id="Humidity">Vocht</string>
+    <string id="Hourly">Per uur</string>
+    <string id="Daily">Komende dagen</string>
+    <string id="Today">Vandaag</string>
+    <string id="SettingTempUnit">Temperatuur</string>
+    <string id="SettingWindUnit">Windsnelheid</string>
+    <string id="UnitCelsius">Celsius</string>
+    <string id="UnitFahrenheit">Fahrenheit</string>
+    <string id="UnitKmh">km/u</string>
+    <string id="UnitMs">m/s</string>
+    <string id="UnitMph">mph</string>
+    <string id="UnitKn">knopen</string>
+    <string id="W0">Helder</string>
+    <string id="W1">Vrij helder</string>
+    <string id="W2">Half bewolkt</string>
+    <string id="W3">Bewolkt</string>
+    <string id="W45">Mist</string>
+    <string id="W51">Motregen</string>
+    <string id="W56">IJzel</string>
+    <string id="W61">Lichte regen</string>
+    <string id="W63">Regen</string>
+    <string id="W65">Zware regen</string>
+    <string id="W66">IJzel</string>
+    <string id="W71">Lichte sneeuw</string>
+    <string id="W73">Sneeuw</string>
+    <string id="W75">Zware sneeuw</string>
+    <string id="W77">Sneeuwkorrels</string>
+    <string id="W80">Buien</string>
+    <string id="W82">Zware buien</string>
+    <string id="W85">Sneeuwbuien</string>
+    <string id="W95">Onweer</string>
+    <string id="W96">Onweer met hagel</string>
+    <string id="WUnknown">Onbekend</string>
+</strings>
