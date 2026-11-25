@@ -1,0 +1,8 @@
+<settings>
+    <setting propertyKey="@Properties.demoMode" title="@Strings.DemoModeTitle">
+        <settingConfig type="boolean"/>
+    </setting>
+    <setting propertyKey="@Properties.deviceName" title="@Strings.DeviceNameTitle">
+        <settingConfig type="alphaNumeric"/>
+    </setting>
+</settings>

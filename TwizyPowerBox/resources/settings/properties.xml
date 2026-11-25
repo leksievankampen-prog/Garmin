@@ -1,0 +1,4 @@
+<properties>
+    <property id="demoMode" type="boolean">false</property>
+    <property id="deviceName" type="string">TwizyPB</property>
+</properties>
